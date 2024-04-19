@@ -1,0 +1,49 @@
+{
+	"name": "Sprite2",
+	"plugin-id": "Sprite",
+	"sid": 779480088890570,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direções",
+			"sid": 685905202978053
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 300004970410172
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 189,
+						"height": 190,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3682014,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 772538370252681,
+				"name": "Personagem",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
