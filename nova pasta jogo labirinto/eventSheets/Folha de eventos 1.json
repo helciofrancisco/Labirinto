@@ -1,0 +1,55 @@
+{
+	"name": "Folha de eventos 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "alto",
+			"type": "number",
+			"initialValue": "29",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 966732689218578
+		},
+		{
+			"eventType": "variable",
+			"name": "largo",
+			"type": "number",
+			"initialValue": "53",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 179157723086788
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 975491470274673,
+					"parameters": {
+						"object": "Sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Sprite",
+					"sid": 649070119501999,
+					"parameters": {
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 171094433640642
+				}
+			],
+			"sid": 429407099882500
+		}
+	],
+	"sid": 158726407357730
+}
